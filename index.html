@@ -3,8 +3,118 @@
   <head>
     <meta charset="utf-8">
     <title>Usman Rajab</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+    <style media="screen">
+    html,
+    body {
+      height: 100%;
+      min-height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h1{
+      text-align: center;
+      font-family: 'lato';
+    }
+    .button-wrap{
+    border:solid 1px #eee;
+    border-radius:50%;
+    position:relative;
+    text-align:center;
+    height:30px;
+    width:30px;
+    }
+
+    .button{
+    position:absolute;
+    font-size:1.2em;
+    z-index:1000;
+    top:0px;
+    left:6px;
+    cursor:pointer;
+    }
+
+    .emoji-anim{
+    position:absolute;
+    z-index:80;
+    top:0px;
+    left:6px;
+    font-size:1.2em;
+    transition: all 850ms;
+    opacity:1;
+    }
+
+    .emoji-anim:nth-child(2){
+    transition-delay: 0ms;
+    }
+
+    .emoji-anim:nth-child(3){
+    transition-delay: 5ms;
+    }
+
+    .emoji-anim:nth-child(4){
+    transition-delay: 0ms;
+    }
+
+    .emoji-anim:nth-child(5){
+    transition-delay: 9ms;
+    }
+
+    .emoji-anim:nth-child(6){
+    transition-delay: 6ms;
+
+    }
+
+    .emoji-anim:nth-child(7){
+    transition-delay: 15ms;
+
+    }
+
+    .button-wrap:hover  .emoji-anim:nth-child(2){
+    transform: translate(-60px, 80px) rotate(270deg) scale(0.5);
+    opacity:0;
+    }
+
+    .button-wrap:hover  .emoji-anim:nth-child(3){
+    transform: translate(0px, 45px) rotate(160deg);
+    opacity:0;
+    }
+
+    .button-wrap:hover  .emoji-anim:nth-child(4){
+    transform: translate(50px, 0px) rotate(85deg) scale(0.3);
+    opacity:0;
+    }
+
+    .button-wrap:hover  .emoji-anim:nth-child(5){
+    transform: translate(0px, -70px) rotate(320deg) scale(0.3);
+    opacity:0;
+    }
+
+    .button-wrap:hover  .emoji-anim:nth-child(6){
+    transform: translate(-45px, -10px) rotate(710deg) scale(0.3);
+    opacity:0;
+    }
+
+    .button-wrap:hover  .emoji-anim:nth-child(7){
+    transform: translate(60px, -80px) rotate(120deg) scale(0.3);
+    opacity:0;
+    }
+    </style>
   </head>
   <body>
-    <h1>Hello World</h1>
+  <br>
+  <div class="button-wrap">
+    <div class="button">😍</div>
+    <div class="emoji-anim">😍</div>
+    <div class="emoji-anim">😍</div>
+    <div class="emoji-anim">😍</div>
+    <div class="emoji-anim">😍</div>
+    <div class="emoji-anim">😍</div>
+    <div class="emoji-anim">😍</div>
+  </div>
   </body>
 </html>
