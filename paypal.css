@@ -1,17 +1,13 @@
 @font-face {
     font-family: PayPalSansSmall-Regular;
     font-style: normal;
+    font-weight: 400;
     font-display:swap;src: url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.woff2) format('woff2'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.woff) format('woff'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.eot) format('embedded-opentype'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.svg) format('svg')
-}
-
-@font-face {
-    font-family: PayPalSansBig-Light;
-    font-style: normal;
-    font-display:swap;src: url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.woff2) format('woff2'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.woff) format('woff'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.eot) format('embedded-opentype'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.svg) format('svg')
 }
 
 @font-face {
     font-family: PayPalSansBig-Medium;
     font-style: normal;
+    font-weight: 600;
     font-display:swap;src: url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Medium.woff2) format('woff2'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Medium.woff) format('woff'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Medium.eot) format('embedded-opentype'),url(https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Medium.svg) format('svg')
 }
